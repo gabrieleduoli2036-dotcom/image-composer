@@ -9,7 +9,7 @@ app.use(express.json())
 const TEMPLATE_PATH = path.join(__dirname, 'template.jpg')
 
 // Coordenadas do quadrado branco — vamos calibrar depois
-const SQUARE = { left: 262, top: 580, size: 280 }
+const SQUARE = { left: 242, top: 599, size: 325 }
 
 app.post('/compose', async (req, res) => {
   const { photo_url, name } = req.body
